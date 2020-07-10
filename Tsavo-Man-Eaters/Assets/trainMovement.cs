@@ -10,5 +10,6 @@ public class trainMovement : MonoBehaviour
   }
   private void OnTriggerEnter2D(Collider2D other){
     Debug.Log("HIT");
+    Time.timeScale = 0;
   }
 }
