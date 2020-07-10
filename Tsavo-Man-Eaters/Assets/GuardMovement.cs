@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class GuardMovement : MonoBehaviour
 {
-  public Rigidbody2D[] rb;
+  public Rigidbody2D guardBody;
   public float guardSpeed = 2f;
-  public Rigidbody2D[] waypoints;
-  Vector2 movement;
+  public Transform[] waypoints;
 
     // Start is called before the first frame update
     void Start() {}
     void FixedUpdate()
     {
         //PlayerMovement
-        rb.MovePosition(waypoints[1].position * moveSpeed * Time.fixedDeltaTime);
+        guardBody.MoveTowards(transform.position, waypoints[1], guardSpeed * Time.fixedDeltaTime);
     }
 }
