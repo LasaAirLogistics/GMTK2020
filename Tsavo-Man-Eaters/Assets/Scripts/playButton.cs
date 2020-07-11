@@ -6,6 +6,6 @@ public class playButton : MonoBehaviour
 {
     public void PlayGame ()
     {
-      SceneManager.LoadScene("Day1");
+      SceneManager.LoadScene("LoadingScreen");
     }
 }
