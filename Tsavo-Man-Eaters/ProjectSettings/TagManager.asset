@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - FxTemporaire
   - Human
-  - Lion
   - Train
+  - Lion
+  - trainreset
   layers:
   - Default
   - TransparentFX
@@ -41,15 +43,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: New Layer
+  - name: Top layer
     uniqueID: 3044097891
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Debug
+<<<<<<< HEAD
+  - name: mid layer
     uniqueID: 2158766135
     locked: 0
   - name: Vital
     uniqueID: 184315989
     locked: 0
+=======
+>>>>>>> parent of 1c62628... a
