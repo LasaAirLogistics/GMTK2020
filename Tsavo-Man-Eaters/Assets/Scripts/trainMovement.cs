@@ -14,9 +14,5 @@ public class trainMovement : MonoBehaviour
       SceneManager.LoadScene("GameOver");
             Time.timeScale = 0;
     }
-    if(other.gameObject.tag == "trainreset"){
-      transform.position = new Vector3((float)3.55, (float)-15.08, 0);
-      Debug.Log("HIT End");
-    }
   }
 }

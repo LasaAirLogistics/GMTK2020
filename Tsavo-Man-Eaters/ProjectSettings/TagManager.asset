@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FxTemporaire
   - Human
-  - Train
   - Lion
-  - trainreset
+  - Train
   layers:
   - Default
   - TransparentFX
@@ -48,4 +46,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Debug
+    uniqueID: 2158766135
+    locked: 0
+  - name: Vital
+    uniqueID: 184315989
     locked: 0
