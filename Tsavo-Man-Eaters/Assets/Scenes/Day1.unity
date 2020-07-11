@@ -1640,13 +1640,19 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c622809... idk
   m_RootOrder: 19
 =======
   m_RootOrder: 18
 >>>>>>> parent of 54625eb... a
+<<<<<<< HEAD
 =======
   m_RootOrder: 18
 >>>>>>> parent of 54625eb... a
+=======
+>>>>>>> parent of c622809... idk
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &528941011
 PolygonCollider2D:
@@ -1768,6 +1774,9 @@ Transform:
   m_RootOrder: 5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c622809... idk
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963019793
 GameObject:
@@ -1800,8 +1809,11 @@ Transform:
   m_RootOrder: 29
 =======
 >>>>>>> parent of 54625eb... a
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54625eb... a
+=======
+>>>>>>> parent of c622809... idk
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &967178058
 GameObject:
@@ -1912,13 +1924,19 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c622809... idk
       value: 18
 =======
       value: 19
 >>>>>>> parent of 54625eb... a
+<<<<<<< HEAD
 =======
       value: 19
 >>>>>>> parent of 54625eb... a
+=======
+>>>>>>> parent of c622809... idk
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
