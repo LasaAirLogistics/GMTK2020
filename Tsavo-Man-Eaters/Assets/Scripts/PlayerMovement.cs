@@ -34,5 +34,6 @@ public class PlayerMovement : MonoBehaviour
     {
         //PlayerMovement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        moveSpeed = Random.value * 10;
     }
 }
