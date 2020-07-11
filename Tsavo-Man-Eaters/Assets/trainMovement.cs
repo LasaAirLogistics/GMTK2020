@@ -6,7 +6,7 @@ public class trainMovement : MonoBehaviour
 {
   private void Update()
   {
-    transform.position += new Vector3(1 * Time.deltaTime, 0, 0);
+    transform.position += new Vector3(0, 1 * Time.deltaTime, 0);
   }
   private void OnTriggerEnter2D(Collider2D other){
     Debug.Log("HIT");
