@@ -2471,7 +2471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086307794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.14, y: 4.24, z: 0}
+  m_LocalPosition: {x: 8.14, y: 4.22, z: 0}
   m_LocalScale: {x: 1.2338864, y: 1.2758414, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3903,6 +3903,7 @@ GameObject:
   - component: {fileID: 1717218453}
   - component: {fileID: 1717218452}
   - component: {fileID: 1717218454}
+  - component: {fileID: 1717218455}
   m_Layer: 5
   m_Name: scoreText
   m_TagString: Untagged
@@ -3982,6 +3983,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09f7d16bcbf4ee468631dd692a8f6d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &1717218455
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717218450}
+  m_Enabled: 1
+  m_SortingLayerID: -2136201161
+  m_SortingLayer: 1
+  m_SortingOrder: 2
 --- !u!1001 &1758416071
 PrefabInstance:
   m_ObjectHideFlags: 0
