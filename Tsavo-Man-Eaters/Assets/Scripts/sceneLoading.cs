@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class sceneLoading : MonoBehaviour
 {
-    private Image _ProgressBar;
+    private Image _progressBar;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class sceneLoading : MonoBehaviour
 
     while (gameLevel.progress < 1)
       {
-        _ProgressBar.fillAmount = gameLevel.progress;
+        _progressBar.fillAmount = gameLevel.progress;
         yield return new WaitForEndOfFrame();
       }
 
