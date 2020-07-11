@@ -9,7 +9,9 @@ public class trainMovement : MonoBehaviour
     transform.position += new Vector3(0, 1 * Time.deltaTime, 0);
   }
   private void OnTriggerEnter2D(Collider2D other){
-    Debug.Log("HIT");
-    Time.timeScale = 0;
+    if(other.gameObject.tag == "Lion"){
+      Debug.Log("HIT");
+      Time.timeScale = 0;
+    }
   }
 }
