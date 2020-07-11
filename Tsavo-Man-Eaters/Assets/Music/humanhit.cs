@@ -6,6 +6,7 @@ public class humanhit : MonoBehaviour
 {
 
   public AudioClip AAAGH1;
+  private bool hasEntered;
 
   void Start ()
    {
@@ -16,7 +17,8 @@ public class humanhit : MonoBehaviour
   public void OnTriggerEnter2D(Collider2D lion)
   {
 
-    if(lion.gameObject.tag == "Lion"){
+    if(lion.gameObject.tag == "Lion" && !hasEntered){
+      hasEntered = true;
       GetComponent<AudioSource> ().Play ();
     }
   }
