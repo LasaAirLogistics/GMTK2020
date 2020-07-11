@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a76f89b5e3d51d4aa5d9407e22cfa77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trombone: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  trombone: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
 --- !u!82 &517046349
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1302,7 +1302,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a76f89b5e3d51d4aa5d9407e22cfa77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trombone: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  trombone: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
 --- !u!82 &974802986
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1998,7 +1998,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2463,7 +2463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a76f89b5e3d51d4aa5d9407e22cfa77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trombone: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  trombone: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
 --- !u!82 &1097479922
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2474,7 +2474,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2834,7 +2834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a76f89b5e3d51d4aa5d9407e22cfa77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trombone: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  trombone: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
 --- !u!82 &1126383999
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2845,7 +2845,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4123,7 +4123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a76f89b5e3d51d4aa5d9407e22cfa77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trombone: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  trombone: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
 --- !u!82 &1851344567
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4134,7 +4134,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8429a8634e6f2cf408adf4604100a818, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7d242907d9a228543aae437a856f7012, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
