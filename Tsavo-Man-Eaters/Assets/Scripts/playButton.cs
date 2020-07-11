@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class playButton : MonoBehaviour
 {
-    public void PlayGame()
+    public void PlayGame ()
     {
       SceneManager.LoadScene("Day1");
     }
