@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class humanhit : MonoBehaviour
 {
@@ -21,6 +22,9 @@ public class humanhit : MonoBehaviour
     if(lion.gameObject.tag == "Lion" && !hasEntered){
       hasEntered = true;
       GetComponent<AudioSource> ().Play ();
+      GameObject canvas = GameObject.Find("Canvas");
+      Text[] textValue = canvas.GetComponentsInChildren<Text>();
+      textValue[0].text = "hey";
     }
   }
 
