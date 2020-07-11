@@ -6,13 +6,20 @@ public class GuardMovement : MonoBehaviour
 {
   public Rigidbody2D guardBody;
   public float guardSpeed = 2f;
-  public Transform[] waypoints;
+  public Transform[] waypoints; //array of waypoints (MUST BE IN ORDER)
 
     // Start is called before the first frame update
-    void Start() {}
+    void Start(){
+      //avoid trying to pathfind between one way point
+      if(!(waypoints.Length > 1))
+      {
+        Debug.LogError("No path given, exiting.", gameObject);
+      }
+    }
+
     void FixedUpdate()
     {
         //PlayerMovement
-        guardBody.MoveTowards(transform.position, waypoints[1], guardSpeed * Time.fixedDeltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, waypoints[1].position, guardSpeed * Time.fixedDeltaTime);
     }
 }
