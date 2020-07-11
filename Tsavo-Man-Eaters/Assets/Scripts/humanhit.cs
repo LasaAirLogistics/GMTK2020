@@ -16,6 +16,7 @@ public class humanhit : MonoBehaviour
 
   public void OnTriggerEnter2D(Collider2D lion)
   {
+    Score.scoreValue += 1;//update kill text
 
     if(lion.gameObject.tag == "Lion" && !hasEntered){
       hasEntered = true;
