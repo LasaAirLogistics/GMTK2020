@@ -19,11 +19,13 @@ public class calendar : MonoBehaviour
 
   private void ChangedActiveScene(Scene current, Scene next){ //is called on scene change
     Debug.Log("LoadScene: " + next.name, gameObject);
-    day++; //up the day
-    if(next.name != "GameOver"){
-      DontDestroyOnLoad(this.gameObject); //refresh our persistant status
-    } else {
-      Destroy(this.gameObject); // reset the counter if the game ends
+     //up the day
+    DontDestroyOnLoad(this.gameObject);
+    if(next.name == "GameOver"){
+      Destroy(this.gameObject);        // reset the counter if the game ends
+    } else if(next.name == "LoadingScreen"){
+      Debug.Log("change in day!", gameObject);
+      day++;
     }
   }
 }

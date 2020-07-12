@@ -1634,6 +1634,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8581901808372356719, guid: b02c094af346b46409d56c1d2d5915ce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581901808372356719, guid: b02c094af346b46409d56c1d2d5915ce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581901808372356719, guid: b02c094af346b46409d56c1d2d5915ce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.9919497
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581901808372356719, guid: b02c094af346b46409d56c1d2d5915ce,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7104888
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581901808372356719, guid: b02c094af346b46409d56c1d2d5915ce,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9498591
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581901808372356719, guid: b02c094af346b46409d56c1d2d5915ce,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8097281
+      objectReference: {fileID: 0}
     - target: {fileID: 8581901808935495476, guid: b02c094af346b46409d56c1d2d5915ce,
         type: 3}
       propertyPath: waypoints.Array.data[0]
@@ -4903,7 +4933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05c8b1ba3a5bb024eaa2dd5cc16b707b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: 0
+  day: 1
 --- !u!4 &2040141428
 Transform:
   m_ObjectHideFlags: 0
