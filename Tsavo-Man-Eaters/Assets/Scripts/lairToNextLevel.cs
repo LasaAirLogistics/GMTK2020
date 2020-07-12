@@ -27,14 +27,15 @@ public class lairToNextLevel : MonoBehaviour
         sceneName = m_Scene.name;
         Debug.Log(sceneName);
         day= sceneName.Substring(sceneName.Length - 1);
-        dayInt = Convert.ToInt32(day)+1;
-        if(dayInt == 11){
+        dayInt = Convert.ToInt32(day);
+        if(dayInt == 0){
           SceneManager.LoadScene("GameWon");
         }
         else {
+          dayInt = dayInt +1;
           day = dayInt.ToString();
           SceneManager.LoadScene("Day"+day);
-        }  
+        }
     }
   }
 }
