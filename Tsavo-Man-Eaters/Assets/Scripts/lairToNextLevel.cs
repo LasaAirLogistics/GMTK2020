@@ -25,6 +25,7 @@ public class lairToNextLevel : MonoBehaviour
       if(lair.gameObject.tag == "Lair" && finished){
         m_Scene = SceneManager.GetActiveScene();
         sceneName = m_Scene.name;
+        Debug.Log(sceneName);
         day= sceneName.Substring(sceneName.Length - 1);
         dayInt = Convert.ToInt32(day)+1;
         day = dayInt.ToString();
