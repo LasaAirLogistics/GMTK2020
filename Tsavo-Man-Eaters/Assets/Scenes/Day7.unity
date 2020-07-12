@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2374,8 +2374,8 @@ GameObject:
   - component: {fileID: 509897470}
   - component: {fileID: 509897469}
   - component: {fileID: 509897468}
-  - component: {fileID: 509897467}
   - component: {fileID: 509897466}
+  - component: {fileID: 509897467}
   m_Layer: 0
   m_Name: lion idle (1)
   m_TagString: Lion
@@ -2574,6 +2574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   placeHolderSpeed: 0
+  polyCollider: {fileID: 0}
   rb: {fileID: 509897471}
   animator: {fileID: 509897468}
 --- !u!114 &509897470

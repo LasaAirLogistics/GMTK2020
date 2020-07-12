@@ -3277,8 +3277,8 @@ GameObject:
   - component: {fileID: 1615523897}
   - component: {fileID: 1615523891}
   - component: {fileID: 1615523890}
-  - component: {fileID: 1615523895}
   - component: {fileID: 1615523896}
+  - component: {fileID: 1615523895}
   m_Layer: 0
   m_Name: lion idle
   m_TagString: Lion
@@ -3319,6 +3319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   placeHolderSpeed: 0
+  polyCollider: {fileID: 0}
   rb: {fileID: 1615523892}
   animator: {fileID: 1615523890}
 --- !u!50 &1615523892
