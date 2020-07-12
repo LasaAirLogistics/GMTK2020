@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Mute : MonoBehaviour
 {
-    AudioSource audioSource;
+    public static AudioSource audioSource;
 
     void Start()
     {

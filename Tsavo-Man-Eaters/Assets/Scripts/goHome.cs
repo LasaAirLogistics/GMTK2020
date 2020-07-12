@@ -7,5 +7,6 @@ public class goHome : MonoBehaviour
     public void PlayGame()
     {
       SceneManager.LoadScene("Menu");
+      Mute.audioSource.Stop();
     }
 }
