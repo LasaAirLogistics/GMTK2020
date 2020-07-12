@@ -41,12 +41,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day9.unity
     guid: 3cdd53ceaf71f844e8bbb3f67b7b0e52
-  - enabled: 1
-    path: Assets/Scenes/About2.unity
+  - enabled: 0
+    path: Assets/Scenes/oldAbout2.unity
     guid: 2bbfa0f5a64654c6597ba0d01dbec77f
   - enabled: 1
     path: Assets/Scenes/Day8.unity
     guid: d0550f20341a6ea45839be6e36ab8772
+  - enabled: 1
+    path: Assets/Scenes/About2.unity
+    guid: 181781c2397c66147a75209caf56f0dc
   - enabled: 1
     path: Assets/Scenes/Day2.unity
     guid: 62872eaefa3938547aeb71c852b1a931

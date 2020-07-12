@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -856,13 +856,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865585803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -561, y: -284, z: 0}
   m_LocalScale: {x: 217.90565, y: 238.477, z: 154.04788}
-=======
-  m_LocalPosition: {x: -661, y: -367, z: 0}
-  m_LocalScale: {x: 203.12627, y: 252.55028, z: 169.95416}
->>>>>>> parent of 7050d5c... fix about 2
   m_Children: []
   m_Father: {fileID: 902458025}
   m_RootOrder: 0
