@@ -8,6 +8,7 @@ public class Mute : MonoBehaviour
 
     void Start()
     {
+      DontDestroyOnLoad(this.gameObject); //make music persistant
       audioSource = GetComponent<AudioSource>();
     }
 
