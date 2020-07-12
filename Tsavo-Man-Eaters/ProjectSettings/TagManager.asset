@@ -8,6 +8,7 @@ TagManager:
   - Lion
   - Train
   - trainreset
+  - Lair
   layers:
   - Default
   - TransparentFX
