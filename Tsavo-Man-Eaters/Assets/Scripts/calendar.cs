@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class calendar : MonoBehaviour
 {
-  private int day = 0; //variable which stores the day
+  public int day = 0; //variable which stores the day
 
   // Start is called before the first frame update
   void Start()
