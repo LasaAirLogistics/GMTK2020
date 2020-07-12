@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public int placeHolderSpeed = 0;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -35,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
     {
         //PlayerMovement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        moveSpeed = Random.value * 10;
+        if (placeHolderSpeed == 20)
+        {
+          moveSpeed = Random.value * 10;
+          placeHolderSpeed = 0;
+        }
+        placeHolderSpeed = placeHolderSpeed + 1;
     }
 }
