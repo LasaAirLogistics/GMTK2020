@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 633f71b5000000003728ac805570fc0a
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -393,11 +393,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184123594}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1499, y: 802, z: -10}
+  m_LocalPosition: {x: 549, y: 356, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409369191
 GameObject:
@@ -463,7 +463,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &420784343
 GameObject:
@@ -702,7 +702,7 @@ RectTransform:
   - {fileID: 1714428667}
   - {fileID: 420784344}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -921,9 +921,7 @@ MonoBehaviour:
   m_Text: In 1898, the British were financing the construction of a railway linking
     Uganda with the Indian Ocean. Several camps of workers were situated along the
     Tsavo River in Kenya to build the railroad. Starting in March 1898, two male
-    lions terrorized the camps for months, killing an amount of people still unknown
-    today. In 2017, a study found that one of the lions had an infection in its tooth,
-    making it difficult for it to hunt and eat.
+    lions terrorized the camps for months, killing an many people.
 --- !u!222 &1714428669
 CanvasRenderer:
   m_ObjectHideFlags: 0
