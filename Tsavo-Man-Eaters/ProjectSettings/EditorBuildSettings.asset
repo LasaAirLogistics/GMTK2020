@@ -49,7 +49,10 @@ EditorBuildSettings:
     guid: d0550f20341a6ea45839be6e36ab8772
   - enabled: 1
     path: Assets/Scenes/Day2.unity
-    guid: e4b47721643484825a25d4d058497809
+    guid: 62872eaefa3938547aeb71c852b1a931
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Day10.unity
     guid: 80bf30eba24bee14cb65e8fd8bb62276
