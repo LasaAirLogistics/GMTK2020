@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class sceneLoading : MonoBehaviour
 {
-    private Image _progressBar;
+    /*private Image progressBar;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +22,26 @@ public class sceneLoading : MonoBehaviour
 
     while (gameLevel.progress < 1)
       {
-        _progressBar.fillAmount = gameLevel.progress;
+        progressBar.fillAmount = gameLevel.progress;
         yield return new WaitForEndOfFrame();
       }
 
+    }*/
+
+    public string SceneToLoad = "Day1";
+    public float DelayTime = 3.0f;
+
+    public void Start()
+    {
+      StartCoroutine(SceneSwitch());
     }
+
+    private IEnumerator SceneSwitch()
+    {
+      Debug.Log("apples");
+      yield return new WaitForSeconds(DelayTime);
+
+      SceneManager.LoadScene(SceneToLoad, LoadSceneMode.Single);
+    }
+
 }
