@@ -23,7 +23,7 @@ public class calendar : MonoBehaviour
     DontDestroyOnLoad(this.gameObject);
     if(next.name == "GameOver"){
       Destroy(this.gameObject);        // reset the counter if the game ends
-    } else if(next.name == "LoadingScreen"){
+    } else if(next.name != "LoadingScreen"){
       Debug.Log("change in day!", gameObject);
       day++;
     }
