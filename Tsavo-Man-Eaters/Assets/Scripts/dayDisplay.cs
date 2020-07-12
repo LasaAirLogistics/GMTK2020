@@ -12,7 +12,7 @@ public class dayDisplay : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
-       curDay = GameObject.Find("Calender").GetComponent<calendar>().day;
+       curDay = GameObject.Find("Calendar").GetComponent<calendar>().day;
 
        Debug.Log(curDay, gameObject);
 
