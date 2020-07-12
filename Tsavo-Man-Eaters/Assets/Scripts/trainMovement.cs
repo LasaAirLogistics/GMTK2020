@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class trainMovement : MonoBehaviour
 {
-  private void Update()
+  private void Update ()
   {
     transform.position += new Vector3(0, 1 * Time.deltaTime, 0);
   }
