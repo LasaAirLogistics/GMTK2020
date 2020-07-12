@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 12721065}
   - component: {fileID: 12721068}
   - component: {fileID: 12721064}
+  - component: {fileID: 12721069}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -159,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -266, y: -195}
+  m_AnchoredPosition: {x: 242, y: -100}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!210 &12721064
@@ -216,8 +217,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 12721068}
-        m_MethodName: 
+      - m_Target: {fileID: 12721069}
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -226,7 +227,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &12721066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,6 +275,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e8253dd9cbf24edab9238781e4a514d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &12721069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12721062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0177493f6ad488fb4eda04f439e23f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &340033093
