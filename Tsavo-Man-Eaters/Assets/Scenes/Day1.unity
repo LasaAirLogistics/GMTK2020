@@ -676,7 +676,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297929577}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755116ffea41e7d4fa704bf72476b061, type: 3}
   m_Name: 
@@ -725,7 +725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Kills: 0/2'
+  m_Text: 'Day: 1'
 --- !u!222 &297929582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3318,8 +3318,8 @@ GameObject:
   - component: {fileID: 1615523897}
   - component: {fileID: 1615523891}
   - component: {fileID: 1615523890}
-  - component: {fileID: 1615523895}
   - component: {fileID: 1615523896}
+  - component: {fileID: 1615523895}
   - component: {fileID: 1615523898}
   m_Layer: 0
   m_Name: lion idle
@@ -3361,6 +3361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   placeHolderSpeed: 0
+  polyCollider: {fileID: 0}
   rb: {fileID: 1615523892}
   animator: {fileID: 1615523890}
 --- !u!50 &1615523892
@@ -4903,50 +4904,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2040141426
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2040141428}
-  - component: {fileID: 2040141427}
-  m_Layer: 0
-  m_Name: Calendar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2040141427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040141426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05c8b1ba3a5bb024eaa2dd5cc16b707b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  day: 1
---- !u!4 &2040141428
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040141426}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.994284, y: 0.88037497, z: -4.736515}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2074292960
 GameObject:

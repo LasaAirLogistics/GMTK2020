@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class lairToNextLevel : MonoBehaviour
 {
   public string scoreText;
   public bool finished;
-
+  string sceneName;
+  Scene m_Scene;
+  string day;
+  int dayInt;
     // Update is called once per frame
     public void OnTriggerEnter2D(Collider2D lair)
     {
@@ -19,9 +23,13 @@ public class lairToNextLevel : MonoBehaviour
         finished = true;
       }
       if(lair.gameObject.tag == "Lair" && finished){
-        int rnd = Random.Range(1,7);
-        string rnd_str = rnd.ToString();
-        SceneManager.LoadScene("Day"+rnd_str);
+        m_Scene = SceneManager.GetActiveScene();
+        sceneName = m_Scene.name;
+        Debug.Log(sceneName);
+        day= sceneName.Substring(sceneName.Length - 1);
+        dayInt = Convert.ToInt32(day)+1;
+        day = dayInt.ToString();
+        SceneManager.LoadScene("Day"+day);
     }
   }
 }
