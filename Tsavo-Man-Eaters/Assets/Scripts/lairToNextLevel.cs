@@ -28,8 +28,13 @@ public class lairToNextLevel : MonoBehaviour
         Debug.Log(sceneName);
         day= sceneName.Substring(sceneName.Length - 1);
         dayInt = Convert.ToInt32(day)+1;
-        day = dayInt.ToString();
-        SceneManager.LoadScene("Day"+day);
+        if(dayInt == 11){
+          SceneManager.LoadScene("GameWon");
+        }
+        else {
+          day = dayInt.ToString();
+          SceneManager.LoadScene("Day"+day);
+        }  
     }
   }
 }
