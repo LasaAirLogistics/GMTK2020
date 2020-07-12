@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -681,7 +681,6 @@ GameObject:
   - component: {fileID: 1742195420}
   - component: {fileID: 1742195419}
   - component: {fileID: 1742195422}
-  - component: {fileID: 1742195423}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -752,8 +751,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1742195423}
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 1742195422}
+        m_MethodName: PlayAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -809,19 +808,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742195417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a09a80bd1e014b7a829fb5da5e43a05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1742195423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742195417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0177493f6ad488fb4eda04f439e23f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a88c90efd12a13479426104edbacf0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1817816369

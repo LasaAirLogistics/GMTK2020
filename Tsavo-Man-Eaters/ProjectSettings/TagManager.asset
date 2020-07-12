@@ -5,10 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Human
-  - Train
   - Lion
+  - Train
   - trainreset
-  - Guard
+  - Lair
   layers:
   - Default
   - TransparentFX
@@ -43,6 +43,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Top layer
+    uniqueID: 3044097891
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: mid layer
+    uniqueID: 2158766135
+    locked: 0
+  - name: Vital
+    uniqueID: 184315989
     locked: 0

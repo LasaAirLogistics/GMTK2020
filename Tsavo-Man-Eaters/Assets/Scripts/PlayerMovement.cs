@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 0f;
+    public float moveSpeed = 5f;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
       //input
+        Time.timeScale = 1.0f;
         if (moveSpeed == 5f)
         {
           moveSpeed = Random.value * 10;
