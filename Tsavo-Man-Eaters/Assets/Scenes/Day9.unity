@@ -1914,7 +1914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 755116ffea41e7d4fa704bf72476b061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 445365369}
 --- !u!210 &445365368
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -2277,6 +2276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   placeHolderSpeed: 0
+  polyCollider: {fileID: 0}
   rb: {fileID: 522452364}
   animator: {fileID: 522452361}
 --- !u!114 &522452363
@@ -3296,7 +3296,7 @@ PrefabInstance:
         type: 3}
       propertyPath: waypoints.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4668358}
     - target: {fileID: 7069134263923918810, guid: d046e49eb5194584b85af1c436e48eca,
         type: 3}
       propertyPath: waypoints.Array.data[0]
@@ -5950,7 +5950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05c8b1ba3a5bb024eaa2dd5cc16b707b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: 1
 --- !u!4 &1768680223
 Transform:
   m_ObjectHideFlags: 0
