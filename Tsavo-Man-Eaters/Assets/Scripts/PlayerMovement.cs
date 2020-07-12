@@ -7,11 +7,17 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public int placeHolderSpeed = 0;
 
+    public PolygonCollider2D polyCollider;
+
     public Rigidbody2D rb;
     public Animator animator;
 
     Vector2 movement;
 
+    void Start()
+    {
+      polyCollider = this.GetComponent<PolygonCollider2D>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -29,6 +35,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (Input.GetKeyDown("p"))
+        {
+          polyCollider.enabled = !polyCollider.enabled;
+        }
 
     }
 
