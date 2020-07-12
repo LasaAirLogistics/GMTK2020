@@ -19,7 +19,9 @@ public class lairToNextLevel : MonoBehaviour
         finished = true;
       }
       if(lair.gameObject.tag == "Lair" && finished){
-            SceneManager.LoadScene("Day2");
+        int rnd = Random.Range(1,7);
+        string rnd_str = rnd.ToString();
+        SceneManager.LoadScene("Day"+rnd_str);
     }
   }
 }
