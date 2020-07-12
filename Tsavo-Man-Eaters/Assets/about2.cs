@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class playButton : MonoBehaviour
+public class about2 : MonoBehaviour
 {
     public void PlayGame ()
     {
-      SceneManager.LoadScene("About");
+      SceneManager.LoadScene("LoadingScreen");
     }
 }
